@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        "redhattext": ['RedHatText'],
+      },
       colors: {
         "plwc-red": "#C73B0F",
         "plwc-rose": {

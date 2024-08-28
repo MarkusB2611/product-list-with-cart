@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'RedHatText';
+    src: url('./assets/fonts/RedHatText-VariableFont_wght.ttf') format('truetype');
+  }
+
+
+  h1 {
+    @apply text-[3.5rem] leading-[120%] tracking-normal
+  }
+}
